@@ -4,8 +4,9 @@
 
 相比en文件，cn文件缺少了太多的翻译代码，遂补充核对。
 
+<br>
 
-### 其他优化
+#### 其他优化
 - 原字体显示异常，经排查发现：是cn“台語”使用的日文汉字导致的，游戏本体自带其他字库，已经修复为黑体。
 `[<MSKFile typeFace = "ＭＳ Ｐゴシック" file = "mspgthc.msk"/>,……<param TypeFace = "ＭＳ Ｐゴシック"/>……]`→
 `[<MSKFile typeFace = "SimHei" file = "simhei.msk"/>,……[<param TypeFace = "SimHei"/>]`
@@ -13,6 +14,7 @@
 
 P.S.: 注意到！在en里还有个“LANG_XX”（对比“LANG_CN”）链接可以写自定义语言，所以使用了这个代码。**【请在语言选项下选择“简体中文（MOD语言）”】**
 
+<br>
 
-### 兼容性：
+#### 兼容性：
 理论上不会与其他汉化模组冲突覆盖（因为用的[LANG_XX  "Custom Language"]而不是[LANG_CN  "台語 (Chinese)"]）。
